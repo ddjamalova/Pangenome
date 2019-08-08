@@ -2,13 +2,10 @@
 Count strains of bacterial species from the GenBank and RefSeq.
 As an input use files obtained from the get_bact_list.py
 """
-
 import urllib.request as urllib2
 import csv
 from optparse import OptionParser
 import sys
-
-
 
 def count_bact_v1(genbank_file):
     orig_stdout = sys.stdout
