@@ -1,1 +1,1 @@
-# Pangenome
+# Scipts for master project
